@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login" duration-ms="2320" started-at="2021-10-09T15:30:59 SGT" finished-at="2021-10-09T15:31:01 SGT">
+    <groups>
+    </groups>
+    <test name="Log" duration-ms="2320" started-at="2021-10-09T15:30:59 SGT" finished-at="2021-10-09T15:31:01 SGT">
+      <class name="todo.ManageToDoLists">
+        <test-method status="PASS" signature="setup()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="setup" is-config="true" duration-ms="2619" started-at="2021-10-09T15:30:56 SGT" finished-at="2021-10-09T15:30:59 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openTestDatafile()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="openTestDatafile" is-config="true" duration-ms="305" started-at="2021-10-09T15:30:59 SGT" finished-at="2021-10-09T15:30:59 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTestDatafile -->
+        <test-method status="PASS" signature="createToDos()[pri:-1, instance:todo.ManageToDoLists@6eceb130]" name="createToDos" duration-ms="959" started-at="2021-10-09T15:30:59 SGT" finished-at="2021-10-09T15:31:00 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToDos -->
+        <test-method status="PASS" signature="editToDo()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="editToDo" duration-ms="306" started-at="2021-10-09T15:31:00 SGT" finished-at="2021-10-09T15:31:00 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editToDo -->
+        <test-method status="PASS" signature="completeToDo()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="completeToDo" duration-ms="251" started-at="2021-10-09T15:31:00 SGT" depends-on-methods="todo.ManageToDoLists.editToDo" finished-at="2021-10-09T15:31:00 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeToDo -->
+        <test-method status="PASS" signature="verificationOfTodoCount()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="verificationOfTodoCount" duration-ms="187" started-at="2021-10-09T15:31:00 SGT" finished-at="2021-10-09T15:31:01 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfTodoCount -->
+        <test-method status="PASS" signature="clearCompleted()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="clearCompleted" duration-ms="290" started-at="2021-10-09T15:31:01 SGT" depends-on-methods="todo.ManageToDoLists.completeToDo, todo.ManageToDoLists.verificationOfTodoCount" finished-at="2021-10-09T15:31:01 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCompleted -->
+        <test-method status="PASS" signature="closeTestDatafile()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="closeTestDatafile" is-config="true" duration-ms="1" started-at="2021-10-09T15:31:01 SGT" finished-at="2021-10-09T15:31:01 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestDatafile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:todo.ManageToDoLists@6eceb130]" name="tearDown" is-config="true" duration-ms="842" started-at="2021-10-09T15:31:01 SGT" finished-at="2021-10-09T15:31:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- todo.ManageToDoLists -->
+    </test> <!-- Log -->
+  </suite> <!-- Login -->
+</testng-results>
